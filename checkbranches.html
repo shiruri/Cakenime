@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakenime</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Shrikhand', cursive;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .nav-container {
+            background-color: #070104;
+            padding: 10px 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        nav a {
+            font-size: 18px;
+            text-decoration: none;
+            color: #4a4a4a;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 30px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #354144;
+            color: white;
+        }
+
+        nav img {
+            width: 300px;
+            height: 100px;
+            margin: 0 20px;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                font-size: 16px;
+                padding: 12px 25px;
+            }
+
+            nav img {
+                width: 120px;
+            }
+        }
+
+        /* Card Container */
+        .-Text-Container {
+            width: 100%;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .-Text-Container h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #070104;
+        }
+
+        .descriptions {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            padding: 10px;
+        }
+
+        /* Card Styles */
+        .card {
+            background-color: #f7f7f7;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 30px;
+            width: 70%; /* Adjusted width to make the card wider */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: left; /* Align text for better readability */
+        }
+
+        .card h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #070104;
+        }
+
+        .card p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6; /* Improves readability with better line spacing */
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-container">
+        <nav>
+            <a href="ourshop.html">Our Shop</a>
+            <a href="index.html">Shop</a>
+            <img src="images/cakenime-black.png" alt="Cakenime Logo">
+            <a href="checkbranches.html">Check Branches</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </div>
+
+    <div class="-Text-Container">
+        <h1>Welcome to Cakenime</h1>
+        <div class="text descriptions">
+            <div class="card">
+                <h2>Cakenime Branches</h2>
+               <p>Branches:</p>
+               <p>Quezon City: 09XXX XXX XXX:</p>
+               <p>Manila City: 09XXX XXX XXX:</p>
+               <p>Makati City: 09XXX XXX XXX:</p>
+               <p>Pasay City: 09XXX XXX XXX:</p>
+            </div>
+        </div>
+        <div class="text descriptions">
+            <div class="card">
+                <p>Quezon City: 09XXX XXX XXX: Note this is Just a placeholder</p>
+                <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:500px;"><div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=quezon+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a><style>#g-mapdisplay img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+            </div>
+        </div>
+        <div class="text descriptions">
+            <div class="card">
+                <p>Manila City: 09XXX XXX XXX:</p>
+                <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:500px;"><div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=manila&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a><style>#g-mapdisplay img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>            </div>
+        </div>
+        <div class="text descriptions">
+            <div class="card">
+                <p>Makati City: 09XXX XXX XXX:</p>
+                <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:500px;"><div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=manila&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a><style>#g-mapdisplay img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>      </div>
+        </div>
+        <div class="text descriptions">
+            <div class="card">
+                <p>Pasay City: 09XXX XXX XXX:</p>
+                <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:500px;"><div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=manila&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="enable-map-data">premium bootstrap themes</a><style>#g-mapdisplay img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>       
+
+</body>
+</html>

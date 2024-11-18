@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakenime</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Shrikhand', cursive;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .nav-container {
+            background-color: #070104;
+            padding: 10px 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        nav a {
+            font-size: 18px;
+            text-decoration: none;
+            color: #4a4a4a;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 30px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #354144;
+            color: white;
+        }
+
+        nav img {
+            width: 300px;
+            height: 100px;
+            margin: 0 20px;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                font-size: 16px;
+                padding: 12px 25px;
+            }
+
+            nav img {
+                width: 120px;
+            }
+        }
+
+        /* Card Container */
+        .-Text-Container {
+            width: 100%;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .-Text-Container h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #070104;
+        }
+
+        .descriptions {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            padding: 10px;
+        }
+
+        /* Card Styles */
+        .card {
+            background-color: #f7f7f7;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 30px;
+            width: 70%; /* Adjusted width to make the card wider */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: left; /* Align text for better readability */
+        }
+
+        .card h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #070104;
+        }
+
+        .card p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6; /* Improves readability with better line spacing */
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-container">
+        <nav>
+            <a href="ourshop.html">Our Shop</a>
+            <a href="index.html">Shop</a>
+            <img src="images/cakenime-black.png" alt="Cakenime Logo">
+            <a href="checkbranches.html">Check Branches</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </div>
+
+    <div class="-Text-Container">
+        <h1>Welcome to Cakenime</h1>
+        <div class="text descriptions">
+            <div class="card">
+                <h2>About Us</h2>
+                <p>
+                    Welcome to **Cakenime**, a realm where cakes come to life! 🎂 Inspired by the vibrant culture of anime and the artistry of gourmet baking, Cakenime brings a unique blend of fantasy and flavor to your table.
+                </p>
+                <p>
+                    Each of our creations is a masterpiece, combining premium ingredients with whimsical designs that tell a story. From the **Caramel Cloud Fantasy** to the **Blushy Strawberry Bliss**, our cakes aren't just desserts—they're experiences.
+                </p>
+                <p>
+                    We take pride in offering something for everyone:
+                    <ul>
+                        <li><strong>Custom Creations:</strong> Let us bring your cake dreams to life with personalized designs and flavors tailored just for you.</li>
+                        <li><strong>Allergen-Free Options:</strong> Enjoy the magic of Cakenime with gluten-free, vegan, and nut-free cakes, crafted with the same attention to taste and quality.</li>
+                        <li><strong>Eco-Friendly Packaging:</strong> We care for the environment as much as we care for our customers. All our packaging is biodegradable or recyclable.</li>
+                    </ul>
+                </p>
+                <p>
+                    Whether you're celebrating a birthday, hosting a tea party, or simply indulging your sweet tooth, Cakenime promises to make every moment magical. Our commitment to creativity, quality, and happiness ensures that every bite is an unforgettable journey.
+                </p>
+                <p>
+                    Step into our world of sweetness and delight—where every cake is a story waiting to be told. Thank you for making us a part of your celebrations. Let's make memories together, one slice at a time! 💕
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
